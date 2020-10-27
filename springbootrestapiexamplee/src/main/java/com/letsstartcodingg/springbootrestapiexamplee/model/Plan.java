@@ -16,7 +16,14 @@ public class Plan {
 	private long pid;
 	private String pname;
 	private int pamt;
+	private int validity;
 	
+	public int getValidity() {
+		return validity;
+	}
+	public void setValidity(int validity) {
+		this.validity = validity;
+	}
 	public long getPid() {
 		return pid;
 	}
